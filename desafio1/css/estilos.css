@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto-Black.ttf);
+    font-weight: 900;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px; /* 1rem = 10px*/
+}
+header {
+    background-image: url(../img/fondo.jpg);
+    height: 40vh;
+    position: relative;
+    background-repeat:no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+}
+
+.titulo{
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-size: 3rem;
+    background-color: white;
+    mix-blend-mode: screen;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+.subtitulo {
+    font-size: 2rem;
+    font-family: 'roboto';
+}
+.contenedor2 {
+    position: relative;
+    height: 70%;
+}
+.foto {
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+}
+.card {
+    width: 23%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    content-visibility: hidden;
+    text-align: justify;
+    padding: 0 25px;
+      border-radius: 5px;
+}
+.exp {
+    padding-top: 20px;
+}
+.card:hover {
+    background-color: pink;
+    content-visibility: visible;
+}
+h3 {
+    margin: 0;
+}
